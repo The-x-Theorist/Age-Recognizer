@@ -1,0 +1,25 @@
+{
+  "name": "age-recognizer",
+  "version": "1.0.0",
+  "description": "this is app which calculate age in deep",
+  "main": "script.js",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-x-Theorist/Age-Recognizer.git"
+  },
+  "author": "sneh khatri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-x-Theorist/Age-Recognizer/issues"
+  },
+  "homepage": "https://github.com/The-x-Theorist/Age-Recognizer#readme"
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="shortcut icon" type="image/png" href="image.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Age Recognizer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="input">
+        <div class="birth">
+          <h2>Please enter your birth details</h2>
+          <form class="birth__form">
+            <label for="birth__month">Choose a month : </label>
+            <select name="birth__month" class="month" id="birth__month">
+              <option class="january" value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </select>
+            <label for="birth__date">Choose a date : </label>
+            <select name="birth__date" class="date" id="birth__date">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <label for="birth__year">Enter a year : </label>
+            <input
+              type="number"
+              name="birth__year"
+              class="year"
+              id="birth__year"
+              placeholder="Year"
+            />
+          </form>
+        </div>
+        <div class="current">
+          <h2>Please enter current details</h2>
+          <form class="current__form">
+            <label for="current__month">Choose a month : </label>
+            <select name="current__month" class="month" id="current__month">
+              <option value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+            </select>
+            <label for="current__date">Choose a date : </label>
+            <select name="current__date" class="date" id="current__date">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <label for="current__year">Enter a year : </label>
+            <input
+              type="number"
+              name="current__year"
+              class="year"
+              id="current__year"
+              placeholder="Year"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="button">
+        <button class="btn">click on me to get the results 😊</button>
+      </div>
+      <div class="result">
+        <div class="result__data">
+          <h2 class="heading">your fortune will appear here 😉</h2>
+          <div class="results">
+            <h3 class="data"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
